@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+.head{
+    height: 100vh;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 400px;
+    background-color: aliceblue;
+    box-shadow: 10px 5px 6px 10px ;
+}
+.heading{
+    background-color: rgb(12, 75, 221);
+    color: white;
+    text-align: center;
+    padding: 20px ;
+    
+}
+.formtag{
+    padding: 30px 40px;
+}
+.form-control{
+    margin-bottom:  10px;
+    padding-bottom: 10px;
+}
+.form-control label{
+    display: inline-block;
+}
+.form-control input{
+    display: block;
+    padding: 5px;
+    width: 100%;
+}
+.radio{
+   display: grid;
+   justify-content: center;
+   align-items: center;}
+button{
+    background-color: rgb(12, 75, 221);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    font-size: x-large;
+}

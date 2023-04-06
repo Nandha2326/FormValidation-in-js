@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="./form.css">
+</head>
+<body>
+    <div class="head"> 
+       <div class="form">
+        <h1 class="heading">Regisration Form</h1>
+        <form class="formtag">
+            <div class="form-control">
+                <label > Name</label>
+                <input type="text" class="name" placeholder="First Name">
+                <p style="color: red;" class="first" ></p>
+            </div >
+            <div class="form-control">
+                <label for="email"> email Id</label>
+                <input type="email" class="email"placeholder="enter email Id">
+                <p style="color: red;" class="mail" ></p>
+
+            </div>
+            <div>
+                <p>Gender</p>
+                <div class="radio">
+                    <label  >
+                        <input type="radio" name="gender" required>Male 
+                    </label><br>
+                    <label >
+                        <input type="radio" name="gender" >Female 
+                    </label><br>
+                    <label >    
+                        <input type="radio" name="gender" >Transgender  
+                    </label><br>
+                </div>
+            </div>
+           
+            <div class="form-control">
+                <label for="password">password</label>
+                <input type="password" id="password" placeholder="Enter strong password ">
+                <p style="color:red;" id="pass"></p>
+            </div>
+            <div class="form-control">
+                <label for="name">Re Enter password</label>
+                <input type="password"id="password2" placeholder="Re Enter your  password">
+                <p style="color:red;" id="cpass"></p>
+            </div>
+            <button class="submit" onclick="Validate()">Submit</button>
+        </form>
+       </div>
+    </div>
+    <script src="./formValidation.js"></script>
+</body>
+</html>
